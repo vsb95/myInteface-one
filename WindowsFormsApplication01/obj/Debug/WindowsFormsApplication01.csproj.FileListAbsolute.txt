@@ -1,0 +1,15 @@
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.exe
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.pdb
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.csprojResolveAssemblyReference.cache
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.Properties.Resources.resources
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.csproj.GenerateResource.Cache
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.exe
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.pdb
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormAdmin.resources
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormEdit_Add_.resources
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormMain.resources
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormRegistration.resources
+c:\users\newvsb\documents\visual studio 2015\Projects\WindowsFormsApplication01\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.exe.config
+D:\1\GitRepos\1\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.exe.config
+D:\1\GitRepos\1\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.exe
+D:\1\GitRepos\1\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.pdb
