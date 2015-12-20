@@ -54,6 +54,12 @@
     <Compile Include="FormEdit%28Add%29.Designer.cs">
       <DependentUpon>FormEdit%28Add%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQuerry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQuerry.Designer.cs">
+      <DependentUpon>FormQuerry.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQuerry.resx">
+      <DependentUpon>FormQuerry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistration.resx">
       <DependentUpon>FormRegistration.cs</DependentUpon>

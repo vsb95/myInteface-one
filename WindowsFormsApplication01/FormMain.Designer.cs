@@ -44,6 +44,7 @@
             this.tBoxPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonReg = new System.Windows.Forms.Button();
+            this.buttonShowMagazine = new System.Windows.Forms.Button();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage1.SuspendLayout();
@@ -61,6 +62,7 @@
             this.buttonQuerry.Text = "Запросы";
             this.buttonQuerry.UseVisualStyleBackColor = true;
             this.buttonQuerry.Visible = false;
+            this.buttonQuerry.Click += new System.EventHandler(this.buttonQuerry_Click);
             // 
             // buttonLogIn
             // 
@@ -195,7 +197,7 @@
             // 
             // tBoxLogin
             // 
-            this.tBoxLogin.Location = new System.Drawing.Point(136, 11);
+            this.tBoxLogin.Location = new System.Drawing.Point(145, 14);
             this.tBoxLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tBoxLogin.Name = "tBoxLogin";
             this.tBoxLogin.Size = new System.Drawing.Size(152, 27);
@@ -203,16 +205,17 @@
             // 
             // tBoxPassword
             // 
-            this.tBoxPassword.Location = new System.Drawing.Point(482, 14);
+            this.tBoxPassword.Location = new System.Drawing.Point(481, 14);
             this.tBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tBoxPassword.Name = "tBoxPassword";
+            this.tBoxPassword.PasswordChar = '*';
             this.tBoxPassword.Size = new System.Drawing.Size(128, 27);
             this.tBoxPassword.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(395, 13);
+            this.label2.Location = new System.Drawing.Point(356, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 19);
             this.label2.TabIndex = 8;
@@ -229,12 +232,24 @@
             this.buttonReg.Visible = false;
             this.buttonReg.Click += new System.EventHandler(this.buttonReg_Click);
             // 
+            // buttonShowMagazine
+            // 
+            this.buttonShowMagazine.Location = new System.Drawing.Point(765, 284);
+            this.buttonShowMagazine.Name = "buttonShowMagazine";
+            this.buttonShowMagazine.Size = new System.Drawing.Size(170, 29);
+            this.buttonShowMagazine.TabIndex = 12;
+            this.buttonShowMagazine.Text = "Показать журнал";
+            this.buttonShowMagazine.UseVisualStyleBackColor = true;
+            this.buttonShowMagazine.Visible = false;
+            this.buttonShowMagazine.Click += new System.EventHandler(this.buttonShowMagazine_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(947, 767);
+            this.Controls.Add(this.buttonShowMagazine);
             this.Controls.Add(this.buttonReg);
             this.Controls.Add(this.tBoxPassword);
             this.Controls.Add(this.tBoxLogin);
@@ -248,6 +263,7 @@
             this.Controls.Add(this.buttonQuerry);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormMain";
             this.Text = "Курсовая";
@@ -279,6 +295,7 @@
         private System.Windows.Forms.TextBox tBoxPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonReg;
+        private System.Windows.Forms.Button buttonShowMagazine;
     }
 }
 

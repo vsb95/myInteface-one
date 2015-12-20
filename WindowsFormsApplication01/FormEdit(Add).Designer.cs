@@ -38,6 +38,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(17, 17);
@@ -45,13 +46,13 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(507, 131);
+            this.dataGridView1.Size = new System.Drawing.Size(821, 131);
             this.dataGridView1.TabIndex = 0;
             // 
             // bOK
             // 
             this.bOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.bOK.Location = new System.Drawing.Point(349, 152);
+            this.bOK.Location = new System.Drawing.Point(655, 152);
             this.bOK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bOK.Name = "bOK";
             this.bOK.Size = new System.Drawing.Size(84, 27);
@@ -63,7 +64,7 @@
             // bCancel
             // 
             this.bCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bCancel.Location = new System.Drawing.Point(440, 152);
+            this.bCancel.Location = new System.Drawing.Point(754, 152);
             this.bCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bCancel.Name = "bCancel";
             this.bCancel.Size = new System.Drawing.Size(84, 27);
@@ -77,11 +78,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(546, 195);
+            this.ClientSize = new System.Drawing.Size(850, 195);
             this.Controls.Add(this.bCancel);
             this.Controls.Add(this.bOK);
             this.Controls.Add(this.dataGridView1);
             this.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormEdit_Add_";
             this.Text = "Редактирование таблицы";

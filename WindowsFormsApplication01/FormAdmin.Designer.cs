@@ -41,7 +41,7 @@
             // 
             // bExit
             // 
-            this.bExit.Location = new System.Drawing.Point(96, 328);
+            this.bExit.Location = new System.Drawing.Point(447, 267);
             this.bExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bExit.Name = "bExit";
             this.bExit.Size = new System.Drawing.Size(96, 30);
@@ -53,7 +53,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 78);
+            this.label3.Location = new System.Drawing.Point(297, 53);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 19);
             this.label3.TabIndex = 22;
@@ -63,18 +63,18 @@
             // 
             this.cBoxRoles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cBoxRoles.FormattingEnabled = true;
-            this.cBoxRoles.Location = new System.Drawing.Point(51, 101);
+            this.cBoxRoles.Location = new System.Drawing.Point(301, 76);
             this.cBoxRoles.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cBoxRoles.Name = "cBoxRoles";
-            this.cBoxRoles.Size = new System.Drawing.Size(196, 27);
+            this.cBoxRoles.Size = new System.Drawing.Size(242, 27);
             this.cBoxRoles.TabIndex = 21;
             // 
             // bRegister
             // 
-            this.bRegister.Location = new System.Drawing.Point(65, 272);
+            this.bRegister.Location = new System.Drawing.Point(35, 196);
             this.bRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bRegister.Name = "bRegister";
-            this.bRegister.Size = new System.Drawing.Size(166, 36);
+            this.bRegister.Size = new System.Drawing.Size(363, 36);
             this.bRegister.TabIndex = 20;
             this.bRegister.Text = "Зарегистировать";
             this.bRegister.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 197);
+            this.label2.Location = new System.Drawing.Point(31, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 19);
             this.label2.TabIndex = 17;
@@ -100,16 +100,17 @@
             // 
             // tBoxPass
             // 
-            this.tBoxPass.Location = new System.Drawing.Point(51, 221);
+            this.tBoxPass.Location = new System.Drawing.Point(35, 143);
             this.tBoxPass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tBoxPass.Name = "tBoxPass";
+            this.tBoxPass.PasswordChar = '*';
             this.tBoxPass.Size = new System.Drawing.Size(196, 27);
             this.tBoxPass.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 132);
+            this.label1.Location = new System.Drawing.Point(31, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 19);
             this.label1.TabIndex = 15;
@@ -117,7 +118,7 @@
             // 
             // tBoxLogin
             // 
-            this.tBoxLogin.Location = new System.Drawing.Point(51, 154);
+            this.tBoxLogin.Location = new System.Drawing.Point(35, 76);
             this.tBoxLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tBoxLogin.Name = "tBoxLogin";
             this.tBoxLogin.Size = new System.Drawing.Size(196, 27);
@@ -128,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(296, 370);
+            this.ClientSize = new System.Drawing.Size(555, 308);
             this.Controls.Add(this.bExit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cBoxRoles);

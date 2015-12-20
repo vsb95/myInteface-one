@@ -12,23 +12,7 @@ namespace WindowsFormsApplication01
             this._backForm = backForm;
             InitializeComponent();
         }
-
-        /// <summary>
-        /// Генерация пароля
-        /// </summary>
-        /// <returns>новый пароль</returns>
-        public static string GeneratonPass()
-        {
-            Random rnd = new Random();
-            string password = "";
-
-            for (int i = 0; i < 6; i++)
-            {
-                password += (char)rnd.Next(65, 91);
-            }
-            return password.ToUpper();
-        }
-
+        
         private void FormAdmin_FormClosing(object sender, FormClosingEventArgs e)
         {
             _backForm.Show();

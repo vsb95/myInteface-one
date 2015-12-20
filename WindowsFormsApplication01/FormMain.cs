@@ -30,6 +30,7 @@ namespace WindowsFormsApplication01
                 {
                     case "Admin":
                         buttonReg.Visible = true;
+                        buttonShowMagazine.Visible = true;
                         break;
                     case "Editor":
                         buttonAdd.Visible = true;
@@ -79,7 +80,28 @@ namespace WindowsFormsApplication01
         private void buttonReg_Click(object sender, EventArgs e)
         {
             var frm = new FormAdmin(this);
+            Hide();
             frm.ShowDialog();
+        }
+
+        private void buttonQuerry_Click(object sender, EventArgs e)
+        {
+            var frm = new FormQuerry(this);
+            Hide();
+
+            if (frm.ShowDialog() == DialogResult.Cancel)
+            {
+                return;
+            }
+            //////////////////////////////////////////// 
+            /// выполнить запрос который вышел из frm.querry;
+            string запрос = frm.querry; // на русском - лал
+
+        }
+
+        private void buttonShowMagazine_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
