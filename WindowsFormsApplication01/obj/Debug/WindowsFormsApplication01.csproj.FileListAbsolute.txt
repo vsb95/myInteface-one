@@ -26,3 +26,16 @@ D:\1\GitRepos\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApp
 D:\1\GitRepos\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormRegistration.resources
 D:\1\GitRepos\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.Properties.Resources.resources
 D:\1\GitRepos\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.csproj.GenerateResource.Cache
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.exe.config
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.exe
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.pdb
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.exe
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\bin\Debug\WindowsFormsApplication01.pdb
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.csprojResolveAssemblyReference.cache
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormAdmin.resources
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormEdit_Add_.resources
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormMain.resources
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormQuerry.resources
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.FormRegistration.resources
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.Properties.Resources.resources
+C:\Users\lamarLich\Documents\Visual Studio 2015\Projects\myInteface-one\WindowsFormsApplication01\obj\Debug\WindowsFormsApplication01.csproj.GenerateResource.Cache

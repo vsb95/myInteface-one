@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace UserService
     {
         private SqlConnection _connection;
         public List<Table> Tables { get; private set; }
+
 
         /// <summary>
         /// Устанавливает соединение с БД с исползованием логина и пароля
@@ -62,6 +64,43 @@ namespace UserService
                 Tables.Add(new Table(tableName, _connection));
         }
 
+        private string GetConnectionString()
+        {
+            return File.ReadAllLines("connectionString.txt", Encoding.Default)[0];
+        }
+        /// <summary>
+        /// Конструктор без параметров считывает данные о соединение из файла
+        /// </summary>
+        public UserService()
+        {
+            Tables = new List<Table>();
+            var tableNames = new List<string>();
+            string connectionString = null;
+            try
+            {
+                connectionString = GetConnectionString();
+            }
+            catch (Exception e)
+            {
+                connectionString =
+                    "Server=localhost; Database= Акт оценки стоимости зданий и сооружений; Trusted_Connection = True;";
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                _connection = new SqlConnection(connectionString);
+                _connection.Open();
+                const string query = "SELECT * FROM INFORMATION_SCHEMA.TABLES";
+                var command = new SqlCommand(query, _connection);
+                var reader = command.ExecuteReader();
+                while (reader.Read())
+                    tableNames.Add(reader["TABLE_NAME"].ToString());
+                reader.Close();
+                tableNames.Remove(tableNames.FirstOrDefault(t => t == "sysdiagrams"));
+                foreach (var tableName in tableNames)
+                    Tables.Add(new Table(tableName, _connection));
+            }
+        }
         /// <summary>
         /// Возвращает коллекцию всех записей указанной таблицы
         /// </summary>
@@ -131,10 +170,38 @@ namespace UserService
             return role;
         }
 
+        public string GetCurrentRole(string login, string password)
+        {
+            var command =
+                new SqlCommand($"select Роль from Пользователь where Логин = '{login}' and Пароль = '{password}'",
+                    _connection);
+            var reader = command.ExecuteReader();
+            reader.Read();
+            if (!reader.HasRows)
+            {
+                reader.Close();
+                return null;
+            }
+            var role = reader[0].ToString();
+            reader.Close();
+            return role;
+        }
+
         public void DeleteFromTable(string tablename, int id)
         {
             var firstOrDefault = Tables.FirstOrDefault(t => t.Name == tablename);
             firstOrDefault?.DeleteQuery(id);
+        }
+
+        public ArrayList SelectQuery(string query)
+        {
+            var list = new ArrayList();
+            var command = new SqlCommand(query, _connection);
+            var reader = command.ExecuteReader();
+            foreach (var record in reader)
+                list.Add(record);
+            reader.Close();
+            return list;
         }
     }
 }

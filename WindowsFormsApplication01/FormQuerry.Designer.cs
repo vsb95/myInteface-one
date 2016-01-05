@@ -53,7 +53,7 @@
             this.buttonQuerry1.Name = "buttonQuerry1";
             this.buttonQuerry1.Size = new System.Drawing.Size(652, 56);
             this.buttonQuerry1.TabIndex = 5;
-            this.buttonQuerry1.Text = "Запрос \"1\"";
+            this.buttonQuerry1.Text = "Вывести все формы предприятия \"Юстерн\"";
             this.buttonQuerry1.UseVisualStyleBackColor = true;
             this.buttonQuerry1.Click += new System.EventHandler(this.buttonQuerry1_Click);
             // 
@@ -63,7 +63,7 @@
             this.buttonQuerry2.Name = "buttonQuerry2";
             this.buttonQuerry2.Size = new System.Drawing.Size(652, 56);
             this.buttonQuerry2.TabIndex = 6;
-            this.buttonQuerry2.Text = "Запрос \"2\"";
+            this.buttonQuerry2.Text = "Вывести все формы, исполнителем которых был Петров П.А";
             this.buttonQuerry2.UseVisualStyleBackColor = true;
             this.buttonQuerry2.Click += new System.EventHandler(this.buttonQuerry2_Click);
             // 
@@ -73,7 +73,8 @@
             this.buttonQuerry3.Name = "buttonQuerry3";
             this.buttonQuerry3.Size = new System.Drawing.Size(652, 56);
             this.buttonQuerry3.TabIndex = 7;
-            this.buttonQuerry3.Text = "Запрос \"3\"";
+            this.buttonQuerry3.Text = "Посчитать и вывести число всех погибших и пострадавших женщин, предприятия \"Юстер" +
+    "н\" за все годы";
             this.buttonQuerry3.UseVisualStyleBackColor = true;
             this.buttonQuerry3.Click += new System.EventHandler(this.buttonQuerry3_Click);
             // 
@@ -83,13 +84,13 @@
             this.buttonQuerry4.Name = "buttonQuerry4";
             this.buttonQuerry4.Size = new System.Drawing.Size(652, 56);
             this.buttonQuerry4.TabIndex = 8;
-            this.buttonQuerry4.Text = "Запрос \"4\"";
+            this.buttonQuerry4.Text = "Посчитать и вывести общую стоимость испорченного оборудования";
             this.buttonQuerry4.UseVisualStyleBackColor = true;
             this.buttonQuerry4.Click += new System.EventHandler(this.buttonQuerry4_Click);
             // 
             // FormQuerry
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(688, 326);
